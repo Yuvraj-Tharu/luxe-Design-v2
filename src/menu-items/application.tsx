@@ -179,12 +179,6 @@ const application: NavItemType = {
       icon: icons.IconBasketCog,
       children: [
         {
-          id: "project-header",
-          title: <FormattedMessage id="project-header" />,
-          type: "item",
-          url: "/project-header",
-        },
-        {
           id: "projects-list",
           title: <FormattedMessage id="projects-list" />,
           type: "item",
